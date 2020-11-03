@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="DharmaBums.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <title></title>
+    <dedicated name = "Han Shan">Han Shan</dedicated>
+    <chapter>
+       <aside> <!-- comments/notes writen in the margins-->
+            <note></note>
+       </aside> 
+       <l num="1"> <!-- line -->
+            <original>
+                <dialogue character= ""></dialogue>
+                
+                <mark location = "above"></mark> <!-- for markings and notes that are in line -->
+            </original>
+            <edit>
+                <dialogue character= ""></dialogue>
+            </edit>
+            <changes></changes><!-- for noting the changes between the original and the Viking Press edit --> 
+    </l>
+    </chapter>
+</root>
