@@ -1,0 +1,15 @@
+start = dharma
+dharma = element dharma {dedication, chapter}
+dedication = element dedication {mixed{person}}
+person = element person {who, text}
+who = attribute who {xmlid}
+xmlid = attribute xml:id {xsdID}
+chapter = element chapter {mixed{chapnumber, p*, pnumber*}}
+chapnumber = element chapnumber {num, text}
+num = attribute num {xsd:integer}
+p = element p {line+}
+line = element line {mixed{person* | dialogue* | place*}}
+dialogue = element dialogue {text}
+place = element place {location, text}
+location = attribute location {xmlid}
+pnumber = element pnumber {num, text}
