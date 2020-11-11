@@ -4,19 +4,139 @@
     <title></title>
     <dedicated name = "Han Shan">Han Shan</dedicated>
     <chapter>
-       <aside> <!-- comments/notes writen in the margins-->
-            <note></note>
-       </aside> 
-       <l num="1"> <!-- line -->
+       <margin> 
+            <note location = "top left">[illegible, The?] Darma Bums</note>
+           <note location = "left of chapter number">Chapter number [an arrow pointing towards the chapter number]</note>
+       </margin> 
+       <s num="1"> <!-- sentence -->
+           <original><mark location = "inline" color = "gray" shape = "scratch">Hopping a freight out of Los Angeles</mark> at high noon one day in late September 1955<mark location = "belowline" color = "blue" shape = "carrot, comma"></mark> 
+               I got on a gondola and lay down with my duff<mark location = "inline" color = "blue" shape = "squiggle"></mark>le bag under my head and my knees crossed and contemplated the clouds as we rolled north to Santa Barbara.</original>
+            <edit>
+                Hopping a freight out of Los Angeles at high noon one day in late September 1955 I got on a gondola and lay down with my duffel bag under my head and my knees crossed and contemplated the clouds as we rolled north to Santa Barbara.
+            </edit>
+            <changes></changes>
+        </s>
+        <s num="2"> 
             <original>
-                <dialogue character= ""></dialogue>
-                
-                <mark location = "above"></mark> <!-- for markings and notes that are in line -->
+                <mark location = "aboveline" color = "blue" shape = "swoosh">It</mark> was a local<mark location = "inline" color = "gray" shape = "semicolon "></mark> and I intended to sleep on the beach at Santa Barbara that night
+                and catch either another local to San Luis Obispo the next morning or the first<mark location = "inline" color = "gray" shape = "circle"></mark>class freight all the way to San Francisco at <mark location = "inline" color = "gray" shape = "circle">7</mark> 
+                <mark location = "inline" color = "gray" shape = "slash">p.m.</mark> <mark location = "inline" color = "gray" shape = "line">at night</mark><mark location = "inline" color = "gray" shape = "slash">.</mark>
             </original>
             <edit>
-                <dialogue character= ""></dialogue>
+                It was a local and I intended to sleep on the beach at Santa Barbara that night and catch either another local to San Luis Obispo the next morning or the firstclass freight all the way to San 
+                Francisco at seven p.m. Somewhere near Camarillo where Charlie Parker'd been mad and relaxed back to normal health, a thin old little bum climbed into my
+                gondola as we headed into a siding to give a train right of way and looked surprised to see me there.
             </edit>
-            <changes></changes><!-- for noting the changes between the original and the Viking Press edit --> 
-    </l>
+            <changes></changes>
+        </s>
+        <s num="3"> 
+            <original>
+                Somewhere near Camarillo where <mark location = "aboveline" color = "blue" shape = "word">Charley</mark> Parker'd been mad and relaxed back to normal health,
+                a thin old little<mark location = "aboveline" color = "gray" shape = "check"></mark> bum climbed into my gondola as we headed into a siding to give a train right of way and looked surprised to see me there.
+            </original>
+            <edit>
+                Somewhere near Camarillo where Charlie Parker'd been mad and relaxed back to normal health, a thin old little bum climbed into my gondola as we headed into a siding to give a train right of way and looked surprised to see me there. 
+            </edit>
+            <changes></changes>
+        </s>
+        <s num="4">
+            <original>
+                He established him- self at the other end of the gondola and lay down, facing me, with his head on his own miserably small pack and said nothing.
+            </original>
+            <edit>
+                He established himself at the other end of the gondola and lay down, facing me, with his head on his own miserably small pack and said nothing.
+            </edit>
+            <changes></changes>
+        </s>
+        <s num="5">
+            <original>
+                By and by they blew the highball whistle after the eastbound freight had smashed through on the main line and we pulled out as the air got colder and fog began to blow from the sea over the warm valleys of the coast.
+            </original>
+            <edit>
+                By and by they blew the highball whistle after the eastbound freight had smashed through on the main line and we pulled out as the air got colder and fog began to blow from the sea over the warm valleys of the coast.
+            </edit>
+            <changes></changes>
+        </s>
+        <s num="6">
+            <original>
+                Both the little bum and I, after un­successful attempts to huddle on the cold steel in wraparounds, got up and paced back and forth and jumped and flapped arms at each our end of the gon.
+            </original>
+            <edit>
+                Both the little bum and I, after un­successful attempts to huddle on the cold steel in wraparounds, got up and paced back and forth and jumped and flapped arms at each our end of the gon.
+            </edit>
+            <changes></changes>
+        </s>
+        <s num="7">
+            <original>
+                Pretty soon we headed into "another siding at a small railroad town and I figured I needed a poor-boy of Tokay wine to complete the cold dusk run to Santa Barbara. 
+            </original>
+            <edit>
+                Pretty soon we headed into another siding at a small railroad town and I figured I needed a poor-boy of Tokay wine to complete the cold dusk run to Santa Barbara.
+            </edit>
+            <changes></changes>
+        </s>
+        <s num="8">
+            <original>
+                <dialogue character = "Ray Smith">"Will you watch my pack while I run over there and get a bottle of wine?"</dialogue>
+            </original>
+            <edit>
+                <dialogue character= "Ray Smith">"Will you watch my pack while I run over there and get a bottle of wine?"</dialogue>
+            </edit>
+            <changes></changes>
+        </s>
+        <s num="9">
+            <original>
+                <dialogue character = "little bum">"Sure thing."</dialogue>
+            </original>
+            <edit>
+                <dialogue character = "little bum">"Sure thing."</dialogue>
+            </edit>
+            <changes></changes>
+        </s>
+        <s num ="10">
+            <original>
+                I jumped over the side and ran across Highway 101 to the store, and bought, besides wine, a little bread and candy.
+            </original>
+            <edit>
+                I jumped over the side and ran across Highway 101 to the store, and bought, besides wine, a little bread and candy.
+            </edit>
+            <changes></changes>
+        </s>
+        <s num="11">
+            <original>
+                I ran back to my freight train which had another fifteen minutes to wait in the now warm sunny scene.
+            </original>
+            <edit>
+                I ran back to my freight train which had another fifteen minutes to wait in the now warm sunny scene.
+            </edit>
+            <changes>identical</changes>
+        </s>
+        <s num="12">
+            <original>
+                But it was late after­noon and bound to get cold soon.
+            </original>
+            <edit>
+                But it was late after­noon and bound to get cold soon.
+            </edit>
+            <changes>identical</changes>
+        </s>
+        <s num="13">
+            <original>
+                The little bum was sitting crosslegged at his end before a pitiful repast of one can of sardines.
+            </original>
+            <edit>
+                The little bum was sitting crosslegged at his end before a pitiful repast of one can of sardines.
+            </edit>
+            <changes>identical</changes>
+        </s>
+        <s num="14">
+            <original>
+                I took pity on him and went over and said, <dialogue character = "Ray Smith">"How about a little wine to warm you up? Maybe you'd like some bread and cheese with your sardines."</dialogue>
+            </original>
+            <edit>
+                I took pity on him and went over and said, <dialogue character = "Ray Smith">"How about a little wine to warm you up? Maybe you'd like some bread and cheese with your sardines."</dialogue>
+            </edit>
+            <changes>identical</changes>
+        </s>
     </chapter>
 </root>
