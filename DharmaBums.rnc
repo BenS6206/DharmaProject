@@ -1,13 +1,13 @@
 start = root
-root = element root {title, dedicated, chapter}
+root = element root {title?, dedicated?, chapter}
     title = element title{ text }
     dedicated = element dedicated{name, text}
         name = attribute name { text }
     chapter = element chapter{ aside?, l*} 
         aside = element aside {note*}
             note = element note {location, text}
-    l = element l{num, original, edit, changes}
-        num = attribute num{text}
+    l = element l{mixed{num, original, edit, changes}}
+        num = attribute num{xsd:integer}
         original = element original {mixed{(dialogue*, mark*)}}
             dialogue = element dialogue{ character, text}
                 character = attribute character {text}
