@@ -60,12 +60,33 @@
                     td {width:500px;}
                    
                     -->  
-                    <xsl:apply-templates/>
+                    <xsl:apply-templates/>  
+                    <!--2020-12-09 ebb: Think about how you want to process the <margin> element at the top of the chapter. 
+                        It's just coming out as raw text inside the <table> element because there's no template rule for processing it.  -->
+                 
                 </table>    
             </body>
             
         </html>
     </xsl:template>
+    
+
+    <xsl:template match="mark">
+        <xsl:variable name="Property" as="xs:string+" select="@*/string()"/>
+        <span class="{$Property}"><xsl:apply-templates/></span> 
+    </xsl:template>  
+    <!--ebb: Above is a new rule I wrote to simplify your procesing of <mark> and its various attributes.
+       This is applying a variable in XSLT to collect all of the attribute values of ANY attributes you have set on a format element anywhere in the document.
+       Since you are outputting these all as values of @class in HTML, we can output multiple values so if something is indented
+       and capitalized, you get both properties, separated by a space. Multiple @class values just come out like this and are pretty common to use in HTML:
+        
+        <span class="inline gray scratch">....</em>
+       
+       
+       This way you'll definitely get all the values, and your CSS styling can respond to as many of them as you wish.
+       
+  
+       -->
     
     
     <xsl:template match = "s">
