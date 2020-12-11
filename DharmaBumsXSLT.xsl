@@ -32,9 +32,10 @@
                     }
                     td
                     {
-                        text-align:center;
+                        margin:auto;
                         padding-top: 5px;
                         padding-bottom: 5px;
+                        width:500px;
                     }
                     h1{margin:auto;}
                  
