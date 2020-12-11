@@ -24,52 +24,215 @@
     <xsl:template match = "/">
         <html>
             <head>
-                <style>
-                    table
+                <title>Dharma Bums Encoded</title>
+                <style type="text/css">
+                    body
                     {
-                        
-                        background-color:aliceblue;
+                    background-color: #b0c0ea;
+                    
                     }
-                    td
+                    h1
                     {
-                        margin:auto;
-                        padding-top: 5px;
-                        padding-bottom: 5px;
-                        width:500px;
+                    font-weight: 1000;
+                    font-size: 50px;
+                    line-height: 40px;
+                    text-align: center;
+                    font-family: futura, sans-serif;
+                    color: #5d5577;
                     }
-                    h1{margin:auto;}
-                 
+                    h2
+                    {
+                    line-height: 5px;
+                    text-align: center;
+                    font-family: futura, sans-serif;
+                    color: #5d5577;
+                    }
+                    h3
+                    {
+                    font-weight: 1000;
+                    line-height: 0px;
+                    text-align: center;
+                    font-family: futura, sans-serif;
+                    font-size: 30px;
+                    color: #3a4376;
+                    }
+                    table.table1
+                    {
+                    border-width: 10px;
+                    border-color: #171717;
+                    background: #3a4376;
+                    }
+                    td.td1
+                    {
+                    padding-left: 5px;
+                    padding-right: 5px;
+                    font-family: helvetica, serif;
+                    font-weight: 600;
+                    color: #e9ebf6;
+                    font-size: 30px;
+                    background-color: cornflowerblue;
+                    text-align:center;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    border-top: solid #3a4376 10px;
+                    border-bottom: solid #3a4376 10px;  
+                    border-right: solid #3a4376 10px;
+                    border-left: solid #3a4376 10px;
+                    line-height: 40px;
+                    
+                    }
+                    table.table2
+                    {
+                    border-width: 10px;
+                    border-color: #171717;
+                    background: #3a4376;
+                    }
+                    td.td2
+                    {
+                    padding-left: 5px;
+                    padding-right: 5px;
+                    font-family: helvetica, serif;
+                    color: #5d5577;
+                    font-size: 20px;
+                    background-color: #e9ebf6;
+                    text-align:center;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    border-top: solid #3a4376 5px;
+                    border-bottom: solid #3a4376 5px;  
+                    border-right: solid #3a4376 5px;
+                    border-left: solid #3a4376 5px;
+                    line-height: 40px;
+                    
+                    }
+                    p
+                    {
+                    
+                    font-family: futura, sans-serif;
+                    text-align: center;
+                    padding-left: 100px;
+                    padding-right: 100px;
+                    padding-top: 20px;
+                    font-size:20px;
+                    color: #6b698f;
+                    }
+                    a:link
+                    {
+                    text-decoration: none;
+                    color:#3a4376;
+                    }
+                    a:visited
+                    {
+                    color:#3a4376;
+                    }
+                    a:hover
+                    {       
+                    font-weight: 1000;                
+                    }
+                    a:active
+                    {
+                    text-decoration: none;
+                    }
+                    div.text
+                    {
+                    background-color: #e9ebf6;
+                    top: 200px;
+                    border: thick solid #3a4376;
+                    margin: auto;
+                    width: 70%;
+                    padding-bottom: 20px;
+                    }
+                    div.title
+                    {
+                    background-color: #e9ebf6;
+                    border: thick solid #3a4376;
+                    margin: auto;
+                    width: 500px;
+                    color: #5d5577;
+                    }
                 </style>
             </head>
             <body>
-                <h1>The Dharma Bums Comparison</h1>
-                <p align="center">This is a DIGIT 110 PROJECT made by BEN SIMON and JOEL "PIE" WATSON. This is a comparative view of the lines of the original version of The Dharma Bums versus how it was published. Yes.</p>
-                <table align="center" border="1">
-                    <!--ebb: HTML/CSS no longer uses align:center. Instead
-                   you center using the CSS property margin:auto; 
-                    To make sure your HTML is coming out valid, you want to 
-                    remove all the align="center" attributes and go up and edit
-                    your CSS above. I started this with the h1 element. 
+                
+                <div class="title"><h1>Dharma Bums Encoded</h1>
                     
-                    Read more about this at https://www.w3schools.com/css/css_align.asp 
+                    <h2>Created by Ben Simon and Joel Watson </h2></div>
+                <br/>
+                <table align="center" class="table1">
+                    <tr></tr>
+                    <td class="td1"><a style="background: #d7e6fb;" href="index.html">Home</a></td>
+                    <td class="td1"><a style="background: #d7e6fb;" href="Documents.html">Original Documents</a></td>
+                    <td class="td1"><a  style="background: #d7e6fb;" href="DharmaBums.html">Final Tables</a></td>    
+                    <td class="td1"><a style="background: #d7e6fb;" href="XSLT.html">Our Code</a></td>
+                    <td class="td1"><a style="background: #d7e6fb;" href="aboutus.html">Credits</a></td>
                     
-                    Basically you want to open your HTML output in oXygen and make sure it's green and valid.
-                    It isn't right now because you have a lot of styling properties embedded in your HTML tags. 
+                </table>
+                
+                <br/>
+                <div class="Title"><h3>Line Comparison</h3></div>
+                <table class="table2" align="center">
+                    <xsl:apply-templates/> 
                     
-                    If you want ALL of your <td> widths to be set to 500px, there's no need to code that in the HTML.
-                    Put it in the CSS as 
-                    td {width:500px;}
-                   
-                    -->  
-                    <xsl:apply-templates/>  
-                    <!--2020-12-09 ebb: Think about how you want to process the <margin> element at the top of the chapter. 
-                        It's just coming out as raw text inside the <table> element because there's no template rule for processing it.  -->
-                 
-                </table>    
+                    
+                </table>
+                
+                <br/>
+                
+                <div class="Title"><h3>Dialogue</h3></div>
+                <table class="table2" align="center">
+                    <tr>
+                        <td class="td2"><b>Line Number</b></td>
+                        <td class="td2" width="500px">Speaker</td>
+                        <td class="td2" width="500px">Text</td>
+                    </tr>
+                    <tr>
+                        <td class="td2"><b>[DIALOGUE NUMBER HERE!]</b></td>
+                        <td class="td2" width="500px">[SPEAKER HERE!]</td>
+                        <td class="td2" width="500px">[DIALOGUE TEXT HERE!]</td>
+                    </tr>
+                </table>
+                
+                <br/>
+                
+                <div class="Title"><h3>Mark Analysis</h3></div>
+                <table class="table2" align="center">
+                    <tr>
+                        <td class="td2"><b>#</b></td>
+                        <td class="td2">Mark Location</td>
+                        <td class="td2">Mark Color</td>
+                        <td class="td2">Mark Shape</td>
+                        <td class="td2">Mark Word</td>
+                    </tr>
+                    <tr>
+                        <td class="td2"><b>[INSERT MARK # HERE!]</b></td>
+                        <td class="td2">[INSERT MARK LOCATION HERE!]</td>
+                        <td class="td2">[INSERT MARK COLOR HERE!]</td>
+                        <td class="td2">[INSERT MARK SHAPE HERE!]</td>
+                        <td class="td2">[INSERT MARK WORD HERE!]</td>
+                    </tr>
+                </table>
+                
+                <br/>
+                
+                <div class="Title"><h3>Margin Contents</h3></div>
+                <table class="table2" align="center" >
+                    <tr>
+                        <td class="td2">Location</td>
+                        <td class="td2">Contents</td>
+                        
+                    </tr>
+                    <tr>
+                        <td class="td2"><b>[NOTE LOCATION HERE!]</b></td>
+                        <td class="td2">[INSERT NOTE HERE!]</td>
+                    </tr>
+                </table>
+                
+                <p xmlns:dct="http://purl.org/dc/terms/" xmlns:cc="http://creativecommons.org/ns#" class="license-text"><a rel="cc:attributionURL" property="dct:title" href="https://argynarg.github.io/DharmaProject/">Dharma Bums Encoded</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/argynarg">Benjamin Simon</a> is licensed under <a rel="license" href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" /><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" /></a></p>
+                
             </body>
-            
         </html>
     </xsl:template>
+
     
 
     <xsl:template match="mark">
@@ -91,8 +254,14 @@
     
     
     <xsl:template match = "s">
-        <tr><td><b><xsl:value-of select="@num"/></b></td><td width="500px"><xsl:apply-templates select="original"/></td><td width="500px"><xsl:apply-templates select="edit"/></td></tr>
+        <tr>
+            <td class="td2"><b><xsl:value-of select="@num"/></b></td>
+            <td class="td2" width="500px"><xsl:apply-templates select="original"/></td>
+            <td class="td2" width="500px"><xsl:apply-templates select="edit"/></td>
+        </tr>
     </xsl:template>
+     
+   
     
     <xsl:template match = "original">
             <xsl:apply-templates/>
