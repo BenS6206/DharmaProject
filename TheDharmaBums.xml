@@ -10,7 +10,7 @@
            <note location = "left of chapter number">Chapter number [an arrow pointing towards the chapter number]</note>
        </margin> 
        <s num="1"> <!-- sentence -->
-           <original><mark location = "inline" color = "gray" shape = "scratch">Hopping a freight out of Los Angeles</mark> at high noon one day in late September 1955<mark location = "belowline" color = "blue" shape = "caret"></mark><mark location = "belowline" color = "blue" shape = "comma"></mark> 
+           <original><mark location = "inline" color = "gray" shape = "scratch"></mark>Hopping a freight out of Los Angeles at high noon one day in late September 1955<mark location = "belowline" color = "blue" shape = "caret"></mark><mark location = "belowline" color = "blue" shape = "comma"></mark> 
                I got on a gondola and lay down with my duff<mark location = "inline" color = "blue" shape = "squiggle"></mark>le bag under my head and my knees crossed and contemplated the clouds as we rolled north to Santa Barbara.</original>
             <edit>
                 Hopping a freight out of Los Angeles at high noon one day in late September 1955 I got on a gondola and lay down with my duffel bag under my head and my knees crossed and contemplated the clouds as we rolled north to Santa Barbara.
@@ -19,9 +19,9 @@
         </s>
         <s num="2"> 
             <original>
-                <mark location = "aboveline" color = "blue" shape = "swoosh"></mark><mark location = "aboveline" color = "blue" word = "The Train">It </mark>was a local<mark location = "inline" color = "gray" shape = "semicolon "></mark> and I intended to sleep on the beach at Santa Barbara that night
-                and catch either another local to San Luis Obispo the next morning or the first<mark location = "inline" color = "gray" shape = "circle"></mark> class freight all the way to San Francisco at <mark location = "inline" color = "gray" shape = "circle">7</mark> 
-                <mark location = "inline" color = "gray" shape = "slash">p.m.</mark> <mark location = "inline" color = "gray" shape = "line">at night</mark><mark location = "inline" color = "gray" shape = "slash">.</mark>
+                <mark location = "aboveline" color = "blue" shape = "swoosh"></mark><mark location = "aboveline" color = "blue" word = "The Train"></mark>It was a local<mark location = "inline" color = "gray" shape = "semicolon "></mark> and I intended to sleep on the beach at Santa Barbara that night
+                and catch either another local to San Luis Obispo the next morning or the first<mark location = "inline" color = "gray" shape = "circle"></mark> class freight all the way to San Francisco at <mark location = "inline" color = "gray" shape = "circle"></mark>7 
+                <mark location = "inline" color = "gray" shape = "slash"></mark>p.m. <mark location = "inline" color = "gray" shape = "line"></mark>at night<mark location = "inline" color = "gray" shape = "slash"></mark>.
             </original>
             <edit>
                 It was a local and I intended to sleep on the beach at Santa Barbara that night and catch either another local to San Luis Obispo the next morning or the firstclass freight all the way to San 
@@ -31,7 +31,7 @@
         </s>
         <s num="3"> 
             <original>
-                Somewhere near Camarillo where <mark location = "aboveline" color = "blue" word = "Charlie">Charley</mark> Parker'd been mad and relaxed back to normal health,
+                Somewhere near Camarillo where <mark location = "aboveline" color = "blue" word = "Charlie"></mark>Charley Parker'd been mad and relaxed back to normal health,
                 a thin old little<mark location = "aboveline" color = "gray" shape = "check"></mark> bum climbed into my gondola as we headed into a siding to give a train right of way<mark location = "belowline" color="gray" shape="comma"></mark><mark location = "belowline" color="gray" shape="caret"></mark> and looked surprised to see me there.
             </original>
             <edit>
@@ -41,7 +41,7 @@
         </s>
         <s num="4">
             <original>
-                He established him- self at the other end of the gondola and lay down, facing me, with his head on his own miserably small <mark location="inline" shape="blur" color="gray"><mark location="aboveline" color="gray" shape="check"><mark location="aboveline" shape="blur" color="blue">little</mark></mark></mark> pack and said nothing.
+                He established him- self at the other end of the gondola and lay down, facing me, with his head on his own miserably small <mark location="inline" shape="blur" color="gray"></mark><mark location="aboveline" color="gray" shape="check"></mark><mark location="aboveline" shape="blur" color="blue"></mark>little pack and said nothing.
             </original>
             <edit>
                 He established himself at the other end of the gondola and lay down, facing me, with his head on his own miserably small pack and said nothing.
@@ -50,7 +50,7 @@
         </s>
         <s num="5">
             <original>
-                By and by they blew the <mark location ="aboveline" color="gray" shape="circle"><mark location="inline" shape="line" color="gray"><mark location="belowline" color="gray" shape="caret">highball</mark></mark></mark> <mark location="aboveline" color = "gray" word="highball">whistle</mark> after the eastbound freight had<mark location="inline" color ="gray" shape="slash"></mark>smashed through on the main line<mark location = "belowline" color="gray" shape="comma"></mark><mark location = "belowline" color="gray" shape="caret"></mark> and we pulled out as <mark location = "aboveline" color="gray" word="the air"><mark location="inline" color="gray" shape="sribble">it</mark></mark> got colder and fog began to blow from the sea over the warm valleys of the coast.
+                By and by they blew the <mark location ="aboveline" color="gray" shape="circle"></mark><mark location="inline" shape="line" color="gray"></mark><mark location="belowline" color="gray" shape="caret"></mark>highball <mark location="aboveline" color = "gray" word="highball"></mark>whistle after the eastbound freight had<mark location="inline" color ="gray" shape="slash"></mark>smashed through on the main line<mark location = "belowline" color="gray" shape="comma"></mark><mark location = "belowline" color="gray" shape="caret"></mark> and we pulled out as <mark location = "aboveline" color="gray" word="the air"></mark><mark location="inline" color="gray" shape="sribble"></mark>it got colder and fog began to blow from the sea over the warm valleys of the coast.
             </original>
             <edit>
                 By and by they blew the highball whistle after the eastbound freight had smashed through on the main line and we pulled out as the air got colder and fog began to blow from the sea over the warm valleys of the coast.
@@ -59,7 +59,7 @@
         </s>
         <s num="6">
             <original>
-                Both the little bum and I, after un­successful attempts to huddle on the cold steel in wrap<mark location="aboveline" color="gray" shape="swoosh"><mark location="belowline" color="gray" shape="swoosh"></mark></mark>arounds, got up and paced back and <mark location="belowline" color="red" shape = "scribble">f</mark>orth and jumped and flapped arms<mark location = "belowline" color = "gray" shape = "caret"></mark><mark location = "belowline" color = "gray" shape = "comma"> <mark location="inline" color="blue" shape="bracket">at each</mark></mark> <mark location="inline" color="gray" shape="scribble">our</mark> end of the <mark location = "aboveline" color="blue" shape="circle">gon</mark>.
+                Both the little bum and I, after un­successful attempts to huddle on the cold steel in wrap<mark location="aboveline" color="gray" shape="swoosh"></mark><mark location="belowline" color="gray" shape="swoosh"></mark>arounds, got up and paced back and <mark location="belowline" color="red" shape = "scribble"></mark>forth and jumped and flapped arms<mark location = "belowline" color = "gray" shape = "caret"></mark><mark location = "belowline" color = "gray" shape = "comma"></mark> <mark location="inline" color="blue" shape="bracket"></mark>at each <mark location="inline" color="gray" shape="scribble"></mark>our end of the <mark location = "aboveline" color="blue" shape="circle"></mark>gon.
             </original>
             <edit>
                 Both the little bum and I, after un­successful attempts to huddle on the cold steel in wraparounds, got up and paced back and forth and jumped and flapped arms at each our end of the gon.
@@ -68,7 +68,7 @@
         </s>
         <s num="7">
             <original>
-                Pretty soon we headed into "another siding at a small railroad town<mark location = "belowline" color = "gray" shape = "caret"></mark><mark location = "belowline" color = "gray" shape = "comma"></mark> and I figured I needed a poor-boy of <mark location="belowline" color="gray" shape="lines">t</mark>okay wine to complete the cold dusk run to Santa Barbara. 
+                Pretty soon we headed into "another siding at a small railroad town<mark location = "belowline" color = "gray" shape = "caret"></mark><mark location = "belowline" color = "gray" shape = "comma"></mark> and I figured I needed a poor-boy of <mark location="belowline" color="gray" shape="lines"></mark>tokay wine to complete the cold dusk run to Santa Barbara. 
             </original>
             <edit>
                 Pretty soon we headed into another siding at a small railroad town and I figured I needed a poor-boy of Tokay wine to complete the cold dusk run to Santa Barbara.
@@ -77,7 +77,7 @@
         </s>
         <s num="8">
             <original>
-                <dialogue character = "Ray Smith">"Will you watch my pack while I run over there <mark location = "inline" color="gray" shape="line">across the highway<mark location="inline" color="gray" shape="slash"></mark></mark> and get a bottle of wine?"</dialogue>
+                <dialogue character = "Ray Smith">"Will you watch my pack while I run over there <mark location = "inline" color="gray" shape="line"></mark>across the highway<mark location="inline" color="gray" shape="slash"></mark> and get a bottle of wine?"</dialogue>
             </original>
             <edit>
                 <dialogue character= "Ray Smith">"Will you watch my pack while I run over there and get a bottle of wine?"</dialogue>
@@ -95,7 +95,7 @@
         </s>
         <s num ="10">
             <original>
-                <mark location = "inline" color="gray" shape="paragraph symbol"></mark>I jumped over the side and ran <mark location="inline" color="blue" shape="circle">over</mark> across <mark location="belowline" color="blue" shape="lines">h</mark>ighway 101 to the store, and bought, besides wine, a little bread and candy.
+                <mark location = "inline" color="gray" shape="paragraph symbol"></mark>I jumped over the side and ran <mark location="inline" color="blue" shape="circle"></mark>over across <mark location="belowline" color="blue" shape="lines"></mark>highway 101 to the store, and bought, besides wine, a little bread and candy.
             </original>
             <edit>
                 I jumped over the side and ran across Highway 101 to the store, and bought, besides wine, a little bread and candy.
@@ -104,7 +104,7 @@
         </s>
         <s num="11">
             <original>
-                I ran back to my freight train<mark location = "belowline" color = "gray" shape = "caret"></mark><mark location = "belowline" color = "gray" shape = "comma"></mark> which had another <mark location="inline" color="blue" shape="circle">15</mark> minutes to wait <mark location="inline" color="blue" shape="circle">in</mark> the <mark location = "inline" color="blue" shape="bracket"><mark location = "inline" color="blue" shape="line">no<mark location ="belowline">w</mark></mark></mark> warm sunny scene<mark location = "inline" color="blue" shape = "slash">.</mark>
+                I ran back to my freight train<mark location = "belowline" color = "gray" shape = "caret"></mark><mark location = "belowline" color = "gray" shape = "comma"></mark> which had another <mark location="inline" color="blue" shape="circle"></mark>15 minutes to wait <mark location="inline" color="blue" shape="circle"></mark>in the <mark location = "inline" color="blue" shape="bracket"></mark><mark location = "inline" color="blue" shape="line"></mark><mark location ="belowline"></mark>now warm sunny scene<mark location = "inline" color="blue" shape = "slash"></mark>.
             </original>
             <edit>
                 I ran back to my freight train which had another fifteen minutes to wait in the now warm sunny scene.
@@ -113,7 +113,7 @@
         </s>
         <s num="12">
             <original>
-                <mark location="inline" color = "blue" shape="caret"><mark location = "inline" color="blue" shape="swoosh"></mark></mark>But it was late after­noon and bound to get cold soon.
+                <mark location="inline" color = "blue" shape="caret"></mark><mark location = "inline" color="blue" shape="swoosh"></mark>But it was late after­noon and bound to get cold soon.
             </original>
             <edit>
                 But it was late after­noon and bound to get cold soon.
@@ -131,7 +131,7 @@
         </s>
         <s num="14">
             <original>
-                I took pity on him and went over and said:<mark location = "belowline" color="gray" shape="swoosh"></mark> <dialogue character = "Ray Smith">"How about a little wine to warm you up<mark location ="aboveline" color="blue" shape="swoosh">.</mark><mark location="aboveline" color="blue" shape="scribble"></mark> Maybe you'd like some bread and cheese with your sardines."</dialogue>
+                I took pity on him and went over and said:<mark location = "belowline" color="gray" shape="swoosh"></mark> <dialogue character = "Ray Smith">"How about a little wine to warm you up<mark location ="aboveline" color="blue" shape="swoosh"></mark><mark location="aboveline" color="blue" shape="scribble"></mark>. Maybe you'd like some bread and cheese with your sardines."</dialogue>
             </original>
             <edit>
                 I took pity on him and went over and said, <dialogue character = "Ray Smith">"How about a little wine to warm you up? Maybe you'd like some bread and cheese with your sardines."</dialogue>
